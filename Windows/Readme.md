@@ -45,5 +45,3 @@ Each section focuses on key competencies tested during the competition, includin
 - Network simulation tools (optional: Cisco Packet Tracer / GNS3)
 
 ---
-
-## 🧠 Practice Recommendations
