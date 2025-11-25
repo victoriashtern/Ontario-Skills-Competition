@@ -19,12 +19,12 @@ Welcome to the **PowerShell Scripts Repository**! This repository contains a col
 
 Here is a list of the PowerShell scripts included in this repository:
 
-| Script Name | Description |
-|-------------|-------------|
-| `Script1.ps1` | Description of what Script1 does |
-| `Script2.ps1` | Description of what Script2 does |
-| `Script3.ps1` | Description of what Script3 does |
-| script44 | .discription |
+| Script Name | Description | Usage |
+|-------------|-------------|-------|
+| `add_domain_controler.ps1` | Add domain controler to server |Install-ADDomain -DomainName "yourdomain.local" -SafeModePassword "password" "
+| `add_member_domain.ps1` | Adds a workstation to the domain | Join-ComputerToDomain -DomainName "yourdomain.local" -DomainUser "Administrator" -Password "password" -Restart|
+| `Script3.ps1` | Description of what Script3 does | |
+| script44 | .discription | |
 
 > ⚠️ Make sure to check each script’s documentation for prerequisites and usage instructions.
 
